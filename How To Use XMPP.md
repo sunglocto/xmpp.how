@@ -90,3 +90,5 @@ Common questions you may have include:
 > How do I make my own room?
 
 There are many things about XMPP which do not apply to typical chat platforms. Clients do a good job obscuring these quirks, but they tend to rear their ugly head once you use the protocol extensively.
+
+We've covered all you need to know in order to get on XMPP and begin chatting. But if you want to know the ex
