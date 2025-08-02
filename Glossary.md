@@ -38,7 +38,7 @@ This is a collection of terms that are used frequently on the XMPP network as we
 - Contact: In virtually all XMPP clients, MUCs and individual users can be added as contacts, allowing you to chat with them. When opening a client after its been disconnected, it will automatically join rooms that are in your contacts.
 - Bookmark: Interchangeable term for contact.
 - Favorite: Interchangeable term for contact. Favorited rooms in some clients are automatically joined whilst those that are not aren't.
-- SIMS: Stateless Inline Media Sharing: A legacy implementation of sharing images without requiring uploading to a server. Most clients do not support SIMS.
+- SIMS: Stateless Inline Media Sharing: A legacy implementation of sharing images. Most clients do not support this.
 - Nick(name): What you are known as in a MUC. Nicknames can be changed by the user if the MUC has the permission to do so turned on.
 - Service Discovery: A part of the XMPP protocol which allows clients to query the abilities and nodes of clients and servers. Some clients such as Psi+ allow for manual service discovery.
 - Disco: Interchangeable (and correct) term for service discovery.

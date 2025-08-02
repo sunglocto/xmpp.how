@@ -1,6 +1,6 @@
 XMPP usages varies wildly depending the client that one is using. However, there are usually similarities in how every single client does things. We do not want this article to be a glorified Gajim tutorial, so we will be using a variety of clients to visualize our points. The name of the client will be shown before the section.
 
-You need a client and a relevant registered account on a server in order to use XMPP. If you do not have those, then please go to the previous articles to begin that process.
+You need a client and a relevant registered account on a server in order to use XMPP. If you do not have those, then please go to the previous azrticles to begin that process.
 [Clients](/clients)
 [Servers](/servers)
 [Creating an account](/Creating%20an%20account)
@@ -28,7 +28,7 @@ Enter their JID, add an optional nickname (they won't see it on their side) and 
 
 Your client should automatically request authorization from the user. Think of this as sending a friend request to a user.
 
-Once the user is added, it may take some time for them to authorize you. In the meantime, you can send them messages, however you won't be able to see the user's status and they may ignore you if they do not know who you are or another reason. You can then start chatting with the user.
+Once the user is added, it may take some time for them to authorize you. In the meantime, you can send them messages, however you won't be able to see the user's status and be aware that some servers and clients block messages from unauthorized users.
 
 In order to join a MUC, you must use your clients respective UI for adding one. A MUC may be referred to as a groupchat, channel or room in your client, however all of these terms are completely interchangeable. [For more information on the terms used on the XMPP network, see the Glossary](/glossary).
 
@@ -67,12 +67,6 @@ Your client should either blindy trust encryption keys from OMEMO or prompt you 
 If you do not like any of the client's implementations, you can simply use your own encryption algorithms and keys and exchange them manually.
 
 If you wish to stop talking with this user at any time, simply remove them from your contacts.
-### Guide for safety when chatting in online MUCs
-It's the Internet. People do not have the best intentions around. And that goes for XMPP. Due to the decentralized nature of the network it's advised that in public MUCs, especially those that are more rowdy with their moderation (or lack there of) that you take caution when opening media, websites and other third party content. If a user asks you for your JID in a semi-anonymous MUC, and you don't know who they are, they may send you unwanted material or spam.
-
-When you see spam or other nefarious content on the network, simply ignore the user or remove them from your contacts and do not engage with them. If the content is severe enough or even illegal, it might be worth it to report the content to the user's instance administrator in order to keep everyone on the network safe.
-
-If a user sends you illegal material on XMPP, you should immediately record any personal information about the user, such as their JID. If you accidentally opened the material, you should clear your cache of the app and ignore the user.
 ### Guide for safety when chatting in online MUCs
 It's the Internet. People do not have the best intentions around. And that goes for XMPP. Due to the decentralized nature of the network it's advised that in public MUCs, especially those that are more rowdy with their moderation (or lack there of) that you take caution when opening media, websites and other third party content. If a user asks you for your JID in a semi-anonymous MUC, and you don't know who they are, they may send you unwanted material or spam.
 
