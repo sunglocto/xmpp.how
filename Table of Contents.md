@@ -4,8 +4,7 @@
 - [Choosing a Server](/servers) - The place where your account will live.
 - [Making an account](Creating%20an%20account.md)
 - [How to use XMPP](/How%20To%20Use%20XMPP)
-- Make your own server - Be your own mailman.
+- [Make your own server](/Make%20your%20own%20server) - Be your own mailman.
 - More about clients - What you should know.
 - MUCs (Multi-User Chats) - Chat with others.
 - OMEMO (End-to-End Encryption) - Secure your communications.
-- ~~Should you really use XMPP?~~

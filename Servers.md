@@ -1,6 +1,6 @@
 XMPP is not like traditional instant messaging platforms. Most platforms simply allow you to create an account with an email address/phone number and a password and you're instantly connected to a centralized service. Because of the nature of XMPP, you must **choose an instance** to keep your account and sessions on. This instance will then connect to other servers on your behalf, allowing you to communicate with others across the XMPP network.
 
-XMPP servers are like mailboxes that you sign up to be a recipient of. You can receive mail from that mailbox and use that mailbox to send mail to others. This means that if other servers die, you won't be able to contact people on those servers, but you will still be able to use the network. However, if your own server dies, you will have to migrate to another server. If you wish to become more independent, you should [host your own server](Host%20your%20own%20server.md).
+XMPP servers are like mailboxes that you sign up to be a recipient of. You can receive mail from that mailbox and use that mailbox to send mail to others. This means that if other servers die, you won't be able to contact people on those servers, but you will still be able to use the network. However, if your own server dies, you will have to migrate to another server. If you wish to become more independent, you should [host your own server](/Make%20your%20own%20server).
 
 ## How to choose
 
@@ -9,7 +9,7 @@ XMPP servers are like mailboxes that you sign up to be a recipient of. You can r
 If a friend of yours runs a server (or is interested in running one and has the know-how), it is highly recommended to ask for an account on their server, for the following reasons:
 - Higher Limits; private server owners will often set the usage limits of the server much higher than public servers, such as how large files can be, how long messages are stored, and how many sessions you can run on one account.
 - Know Your SysOp; because you know your systems operator, you can directly ask them for help, including for things a public server owner might refuse (i.e. manually resetting your password, provisioning more accounts).
-- Management; if you want to just chat and don't care to learn, your SysOp is probably willing to manage some aspects fo XMPP for you.
+- Management; if you want to just chat and don't care to learn, your SysOp is probably willing to manage some aspects for XMPP for you.
 - Roster Groups; a more specific feature. The SysOp can put you and some other users of the server in a roster group, which automatically adds all users of that group as contacts of each other. Extremely useful for families or tight friend groups.
 - Low-Profile; The chances of a private server getting any sort of spam is effectively 0, as it is not well known. More hardline systems operators can disable federation outright to prevent all spam.
 - Decentralization; More servers = more decentralization = more robust network over all. Also, that means that outages will usually not affect you.

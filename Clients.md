@@ -21,7 +21,7 @@ We recommend ConverseJS. It is extremely simple and plain, so you should use one
 We recommend Profanity. It's available for Windows, GNU/Linux, MacOS, OpenBSD, FreeBSD, and Android (through Termux). It is as feature rich as Gajim, and is similar to Irssi, so it is very easy to use. (Everything is done through /commands instead of hard to remember key-binds.) Because Profanity uses GNU Readline, you can easily add arbitrary keybinds, and if you use Vi(m) or Emacs, you can setup similar keybinds. You can get it [here](https://profanity-im.github.io/).
 
 ## Installed a client?
-Great! Now you can [choose a server](Servers.md) to chat on and communicate with others, or even setup your [own server](Host%20your%20own%20server.md) in order to have your own chatroom and be fully independent from others. Be advised that you should update your client frequently in order to take advantage of new XMPP features.
+Great! Now you can [choose a server](Servers.md) to chat on and communicate with others, or even setup your [own server](Make%20your%20own%20server.md) in order to have your own chatroom and be fully independent from others. Be advised that you should update your client frequently in order to take advantage of new XMPP features.
 
 ## Clients to avoid
 Here are some clients you should not use for one reason or another.
