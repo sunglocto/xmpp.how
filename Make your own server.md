@@ -31,8 +31,46 @@ Furthermore, even if your ISP lets you (or simply does nothing to you), and you 
   
 If you still want to run a server at home, we highly recommend running one in conjunction with a VPS if you can. Use the VPS server for public stuff and connecting with whom you don't know well, and use your home server for people you trust very well.
 
-Once you have all of these things, it's time for you to pick a Jabber server implementation. As of writing, the best two implementations are **Prosŏdy** and **ejabberd**.
+Once you have all of these things, it's time for you to pick a Jabber server implementation.
 
-# TODO - Add chart comparing differences between Prosŏdy and ejabberd
+There are five main XMPP Server Implementations. All of them support roughly the same XEPs, so you don't have to worry about server support; instead, the pros and cons will focus on their use as a server operator. 
+  
+## Ejabberd
+ 
+### Pros:  
+- Strong out of the box experience; contains most XEPs you want, and has a built in turn-server that support user authentication with XMPP.  
+- Supports PLAINTEXT, SCRAM-SHA-1, SCRAM-SHA-256, SCRAM-SHA-512, etc for authentication. Has the option of allowing multiple options for maximum client accessibility, clients usually choose the most strong option they support. I use SCRAM-SHA-256(-PLUS) which is supported by older clients and SCRAM-SHA-512(-PLUS) which is supported by newer clients, both of which are secure options.  
+- Incredibly flexible configuration.  
+- Built in HTTP REST API, useful for making very simple bots and other functions.  
+- high availability; can be clustered  
+- multi-threaded by default, so it's fast by default even with something like SQLite3. (But pairs well with an equally multi-threaded DB like Postgresql)  
+- the developer of Conversations specifically targets ejabberd as a benchmark for compliance.  
+- Mature and historically well designed, has existed since 2002. Used by a lot of companies.  
+- Managed by a for-profit company with a good track record. If you like the stability of companies, this is an advantage.  
+  
+### Cons:  
+- A couple of terrible defaults in the example configuration, mainly that the default authentication is plaintext.  
+- Some parts of it need to be automated, but it is fairly easy to do so.  
+- A database is required. SQLite3 is the easiest to use. Supports many options.  
+- Documentation reads like a manual; it'll tell you what things do and explains them fairly well, but it doesn't tell you _how_ things ought to be used, besides the example configuration. You'll need some understanding of XMPP to understand the documentation.  
+- If you need to extend ejabberd itself and Jabber Component Protocol or its API is not enough for you, you'll need to know Erlang, which is a somewhat uncommon language.  
+- Licensed under the GPL with a CLA. (Would be better licensed as AGPL)  
+- Managed by a for-profit company. If you distrust companies, this is a flaw.  
+  
+### Prosody 
+### Pros:  
+- Great to develop on, easy to extend. Lua is a simple programming language, and you might already know it if you've developed for GMod, Roblox, etc.  
+- The basic prosody package contains most of the XEPs you need, but it has a wealth of community made modules to further extend prosody's functionality.  
+- Great documentation.  
+- Doesn't require a database, but one is highly recommended. You can use PostgreSQL or SQLite3, among others.  
+- Authored by a collective of volunteer developers. Trust in the community!  
+- Licensed under MIT. You have free reign to do what you like.  
+  
+### Cons:  
+- Single-threaded. It is still quite fast.  
+- Modifying the configuration without restarting is slightly more involved.  
+- Changing certain modules _requires_ a restart.  
+- Licensed as MIT. Pushover license.  
+- Authored by a collective of volunteer developers, meaning that support might be few and far between.
 
 Once you have a server, let's learn [How to use XMPP!](/How%20To%20Use%20XMPP)
