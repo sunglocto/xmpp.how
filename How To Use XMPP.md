@@ -1,6 +1,6 @@
 XMPP usages varies wildly depending the client that one is using. However, there are usually similarities in how every single client does things. We do not want this article to be a glorified Gajim tutorial, so we will be using a variety of clients to visualize our points. The name of the client will be shown before the section.
 
-You need a client and a relevant registered account on a server in order to use XMPP. If you do not have those, then please go to the previous azrticles to begin that process.
+You need a client and a relevant registered account on a server in order to use XMPP. If you do not have those, then please go to the previous articles to begin that process.
 [Clients](/clients)
 [Servers](/servers)
 [Creating an account](/Creating%20an%20account)
