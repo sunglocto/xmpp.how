@@ -38,3 +38,5 @@ Here are some clients you should not use for one reason or another.
 XMPP works by maintaining a background connection to the server you're connected to in the background.
 
 This works fine on Android, Windows, GNU/Linux, and MacOS, but on iOS, Apple states that apps are not allowed to be programmed to run in the background if they wish to be on the App Store. There is a workaround many servers will enable, but it doesn't always work and Apple may break these implementations at any one time. This causes notifications to be inconsistent and a worsened user experience.
+
+For a more detailed overview on Clients, see the [extended article](/More%20about%20clients). Otherwise, [choose a server](Servers.md) to join the network on.

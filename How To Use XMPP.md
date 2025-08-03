@@ -91,4 +91,4 @@ Common questions you may have include:
 
 There are many things about XMPP which do not apply to typical chat platforms. Clients do a good job obscuring these quirks, but they tend to rear their ugly head once you use the protocol extensively.
 
-We've covered all you need to know in order to get on XMPP and begin chatting. But if you want to know the ex
+We've covered all you need to know in order to get on XMPP and begin chatting. But if you want to know the specifics of the protocol and advanced features, let's move on to the second part of xmpp.how, which is available in the [Table of Contents](/Table%20Of%20Contents).

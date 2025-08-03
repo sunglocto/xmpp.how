@@ -1,4 +1,5 @@
 Here are all of the clients we're going to be talking about in this article.
+Don't understand the terms used in this article? Check out the [Glossary](/Glossary). If you just want a recommendation for what client to use depending on your platform, see [Clients](/Clients).
 ![[cheogram.png]] Cheogram
 ![[conversations.png]] Conversations
 ![[dino.png]] Dino
@@ -123,7 +124,7 @@ https://xmpp.org/extensions/xep-0425.html
 ![[movim.png]] Movim ✅
 ![[profanity.png]] Profanity N/A
 ![[psiplus.png]] Psi+ ✅
-*Images sent from Psi+ or monocles chat users do not appear*
+*Images sent from Psi+ or monocles chat users do not appear on Gajim*
 
 *Does this client show images by default? (This is not a good thing)*
 ![[cheogram.png]] Cheogram (UNKNOWN)
@@ -144,3 +145,14 @@ https://xmpp.org/extensions/xep-0425.html
 ![[movim.png]] Movim  (UNKNOWN)
 ![[profanity.png]] Profanity N/A
 ![[psiplus.png]] Psi+ ✅ (with webview enabled)
+
+# Encryption
+*Does this client support OMEMO?*
+![[cheogram.png]] Cheogram ✅
+![[conversations.png]] Conversations ✅
+![[dino.png]] Dino (UNKNOWN)
+![[gajim.png]] Gajim ✅
+![[monocles.png]] Monocles chat ✅
+![[movim.png]] Movim (UNKNOWN)
+![[profanity.png]] Profanity ✅
+![[psiplus.png]] Psi+✅ (with plugin)
