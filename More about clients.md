@@ -102,7 +102,7 @@ https://xmpp.org/extensions/xep-0424.html
 ![[monocles.png]] Monocles chat ✅
 ![[movim.png]] Movim (UNKNOWN)
 ![[profanity.png]] Profanity (UNKNOWN)
-![[psiplus.png]] Psi+ ✅
+![[psiplus.png]] Psi+ ❌
 
 *Does this client respect moderations?*
 https://xmpp.org/extensions/xep-0425.html
@@ -146,6 +146,19 @@ https://xmpp.org/extensions/xep-0425.html
 ![[profanity.png]] Profanity N/A
 ![[psiplus.png]] Psi+ ✅ (with webview enabled)
 
+# Security
+*Does your client store credentials on the Internet?*
+![[cheogram.png]] Cheogram ❌
+![[conversations.png]] Conversations ❌
+![[dino.png]] Dino ❌
+![[gajim.png]] Gajim ❌
+![[monocles.png]] Monocles chat ❌
+![[movim.png]] Movim  ✅
+![[profanity.png]] Profanity ❌
+![[psiplus.png]] Psi+ ❌
+Movim is a web client. This wouldn't be particularly bad if all of the application's logic was done client-side, such as with Matrix clients like Cinny. However it sends your credentials to the server running Movim on it. This server then contacts your XMPP server. If this server were to get hacked, your XMPP credentials could be compromised.
+
+We recommend only using Movim instances that you or your XMPP server admin hosts.
 # Encryption
 *Does this client support OMEMO?*
 ![[cheogram.png]] Cheogram ✅
@@ -153,6 +166,6 @@ https://xmpp.org/extensions/xep-0425.html
 ![[dino.png]] Dino (UNKNOWN)
 ![[gajim.png]] Gajim ✅
 ![[monocles.png]] Monocles chat ✅
-![[movim.png]] Movim (UNKNOWN)
+![[movim.png]] Movim ✅ (Disabled by default)
 ![[profanity.png]] Profanity ✅
 ![[psiplus.png]] Psi+✅ (with plugin)

@@ -10,7 +10,7 @@ I - Peering into the water
 II - Getting your feet wet
 - [Glossary](/glossary) - All the lingo used in this weird part of the Internet.
 - [More about clients](/More%20about%20clients) - What you should know.
-- MUCs (Multi-User Chats) - Chat with others.
+- [MUCs (Multi-User Chats)](/MUCs) - Chat with others.
 - OMEMO (End-to-End Encryption) - Secure your communications.
 - [Moderation](/Moderation) - Secure your group chats.
 
